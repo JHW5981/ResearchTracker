@@ -1,4 +1,4 @@
-![Static Badge](https://img.shields.io/badge/build-passing-brightgreen?style=plastic) ![Static Badge](https://img.shields.io/badge/ref-url-blue?style=plastic&logo=github&color=blue&link=https%3A%2F%2Fgithub.com%2FVincentqyw%2Fcv-arxiv-daily)
+<a><img src='https://img.shields.io/badge/build-passing-brightgreen?style=plastic'></a><a href='https://github.com/Vincentqyw/cv-arxiv-daily'><img src='https://img.shields.io/badge/ref-url-blue?style=plastic&logo=github'></a>
 ## OCR
 | Update Date | Title | Abstract | Link |
 |-------------|-------|----------|------|

@@ -113,8 +113,8 @@ def tracker(**config):
     logging.info(f"Write data into README.md begin")
     with open(md_readme_path,"w") as f:
         # badge
-        f.write("![Static Badge](https://img.shields.io/badge/build-passing-brightgreen?style=plastic) ")
-        f.write("![Static Badge](https://img.shields.io/badge/ref-url-blue?style=plastic&logo=github&color=blue&link=https%3A%2F%2Fgithub.com%2FVincentqyw%2Fcv-arxiv-daily)\n")
+        f.write("<a><img src='https://img.shields.io/badge/build-passing-brightgreen?style=plastic'></a>")
+        f.write("<a href='https://github.com/Vincentqyw/cv-arxiv-daily'><img src='https://img.shields.io/badge/ref-url-blue?style=plastic&logo=github'></a>\n")
 
         # contents
         for item in data_collector:
