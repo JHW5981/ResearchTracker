@@ -1,5 +1,6 @@
 <a><img src='https://img.shields.io/badge/build-passing-brightgreen?style=plastic'></a><a href='https://github.com/Vincentqyw/cv-arxiv-daily'><img src='https://img.shields.io/badge/ref-url-blue?style=plastic&logo=github'></a>
-<details>  <summary>OCR</summary>
+<details>
+  <summary><b>OCR</b></summary>
 
 | Update Date | Title |
 |-------------|-------|
@@ -24,7 +25,9 @@
 |**2023-12-11**|**[Oracle Character Recognition using Unsupervised Discriminative Consistency Network](http://arxiv.org/abs/2312.06075)**|
 |**2023-12-05**|**[Enhancing Vehicle Entrance and Parking Management: Deep Learning Solutions for Efficiency and Security](http://arxiv.org/abs/2312.02699)**|
 
-</details><details>  <summary>Document Analysis</summary>
+</details>
+<details>
+  <summary><b>Document Analysis</b></summary>
 
 | Update Date | Title |
 |-------------|-------|

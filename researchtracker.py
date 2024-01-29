@@ -118,15 +118,15 @@ def tracker(**config):
 
         # contents
         for item in data_collector:
-            f.write("<details>")
+            f.write("<details>\n")
             for key, value in item.items():
-                f.write(f"  <summary>{key}</summary>\n\n")
+                f.write(f"  <summary><b>{key}</b></summary>\n\n")
                 f.write("| Update Date | Title |\n")
                 f.write("|-------------|-------|\n")
                 for _, v in value.items():
                     f.write(f"{v}")
                 f.write("\n")
-            f.write("</details>")
+            f.write("</details>\n")
     logging.info(f"Write data into README.md end")
 
 
