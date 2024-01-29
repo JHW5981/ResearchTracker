@@ -85,8 +85,8 @@ def get_daily_papers(topic,query="ocr", max_results=20):
         paper_url = arxiv_url + 'abs/' + paper_key
         
         try:
-            content[paper_key] = "\n**{}** **{}** **[{}]({})**\n".format(
-                    update_time,paper_key,paper_title,paper_url)
+            content[paper_key] = "|**{}**|**[{}]({})**|\n".format(
+                    update_time,paper_title,paper_url)
         except Exception as e:
             logging.error(f"exception: {e} with id: {paper_key}")
 
@@ -120,7 +120,9 @@ def tracker(**config):
         for item in data_collector:
             f.write("<details>")
             for key, value in item.items():
-                f.write(f"  <summary>{key}</summary>\n")
+                f.write(f"  <summary>{key}</summary>\n\n")
+                f.write("| Update Date | Title |\n")
+                f.write("|-------------|-------|\n")
                 for _, v in value.items():
                     f.write(f"{v}")
                 f.write("\n")
