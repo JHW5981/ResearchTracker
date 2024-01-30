@@ -1,7 +1,7 @@
 # basics
 user_name: "sjtu-jhw"
 repo_name: "ResearchTracker"
-max_results: 20
+max_results: 1
 
 # file paths
 md_readme_path: 'README.md'
@@ -9,7 +9,7 @@ md_readme_path: 'README.md'
 
 # keywords to search
 keywords:
-    "OCR": 
-        filters: ["OCR", "Character Recognition"]
+    # "OCR": 
+    #     filters: ["OCR", "Character Recognition"]
     "Document Analysis":
         filters: ["Document Analysis", "Layout Analysis"]

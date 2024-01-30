@@ -1,15 +1,5 @@
-CMakeLists.txt.user
-CMakeLists_modified.txt
+test.ipynb
 
-
-build/
-
-lib/
-bin/
-
-cmake_modules/
-cmake-build-debug/
-.idea/
 .vscode/
-*.pyc
+
 

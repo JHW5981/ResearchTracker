@@ -2,6 +2,7 @@ import arxiv
 import yaml
 import logging
 import argparse
+from chat import Chat
 
 logging.basicConfig(format='[%(asctime)s %(levelname)s] %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S',
@@ -43,6 +44,11 @@ def load_config(config_file:str) -> dict:
         logging.info(f'config = {config}')
     return config 
 
+def analyzer(abs:str) -> str:
+    chat = Chat("你是一个帮助我Summarize文章摘要的助手")
+    conversation_list = chat.ask(f"请帮我简化一下文章的摘要，告诉我他们做了什么事情就行，并告诉我这篇文章是不是与论文PDF解析相关，摘要如下：{abs}")
+    response = conversation_list[-1]['content']
+    return response.replace('\n', '<br>')
 
 
 def get_daily_papers(topic,query="ocr", max_results=20):
@@ -76,6 +82,8 @@ def get_daily_papers(topic,query="ocr", max_results=20):
 
         logging.info(f"Time = {update_time} title = {paper_title}")
 
+        response = analyzer(paper_abstract)
+
         # eg: 2108.09112v1 -> 2108.09112
         ver_pos = paper_id.find('v')
         if ver_pos == -1:
@@ -85,8 +93,8 @@ def get_daily_papers(topic,query="ocr", max_results=20):
         paper_url = arxiv_url + 'abs/' + paper_key
         
         try:
-            content[paper_key] = "|**{}**|**[{}]({})**|\n".format(
-                    update_time,paper_title,paper_url)
+            content[paper_key] = "|**{}**|**{}**|**{}**|**[{}]({})**|\n".format(
+                    update_time,paper_title,response,paper_id,paper_url)
         except Exception as e:
             logging.error(f"exception: {e} with id: {paper_key}")
 
@@ -97,8 +105,6 @@ def tracker(**config):
     # collector
     data_collector = []
     # configs
-    user_name = config["user_name"]
-    repo_name = config["repo_name"]
     max_results = config["max_results"]
     md_readme_path = config["md_readme_path"]
     keywords = config["kv"]
@@ -121,8 +127,8 @@ def tracker(**config):
             f.write("<details>\n")
             for key, value in item.items():
                 f.write(f"  <summary><b>{key}</b></summary>\n\n")
-                f.write("| Update Date | Title |\n")
-                f.write("|-------------|-------|\n")
+                f.write("| Update Date | Title | GPT | Paper ID |\n")
+                f.write("|-------------|-------|-----|----------|\n")
                 for _, v in value.items():
                     f.write(f"{v}")
                 f.write("\n")
