@@ -1,11 +1,13 @@
 # basics
 user_name: "sjtu-jhw"
 repo_name: "ResearchTracker"
-max_results: 1
+max_results: 20
 
 # file paths
 md_readme_path: 'README.md'
 
+# GPT
+gpt: False
 
 # keywords to search
 keywords:

@@ -6,7 +6,8 @@ from chat import Chat
 
 logging.basicConfig(format='[%(asctime)s %(levelname)s] %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S',
-                    level=logging.INFO)
+                    # level=logging.INFO)
+                    level=logging.CRITICAL)         
 
 arxiv_url = "http://arxiv.org/"
 
@@ -51,7 +52,7 @@ def analyzer(abs:str) -> str:
     return response.replace('\n', '<br>')
 
 
-def get_daily_papers(topic,query="ocr", max_results=20):
+def get_daily_papers(topic,query="ocr", max_results=20, gpt=False):
     """
     from `Vincentqyw/cv-arxiv-daily`, used for get daily papers
     @param topic: str
@@ -75,14 +76,15 @@ def get_daily_papers(topic,query="ocr", max_results=20):
         paper_title         = result.title
         paper_url           = result.entry_id
         paper_abstract      = result.summary.replace("\n"," ")
-        primary_category    = result.primary_category
-        publish_time        = result.published.date()
         update_time         = result.updated.date()
 
 
         logging.info(f"Time = {update_time} title = {paper_title}")
 
-        response = analyzer(paper_abstract)
+        if gpt:
+            response = analyzer(paper_abstract)
+        else:
+            response = "Not GPT"
 
         # eg: 2108.09112v1 -> 2108.09112
         ver_pos = paper_id.find('v')
@@ -111,7 +113,7 @@ def tracker(**config):
     
     logging.info(f"GET daily papers begin")
     for k, v in keywords.items():
-        data = get_daily_papers(topic=k, query=v, max_results=max_results)
+        data = get_daily_papers(topic=k, query=v, max_results=max_results, gpt=config["gpt"])
         data_collector.append(data)
     logging.info(f"GET daily papers end")
 
