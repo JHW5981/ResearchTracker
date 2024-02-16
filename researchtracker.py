@@ -26,15 +26,14 @@ def load_config(config_file:str) -> dict:
     # make filters pretty
     def pretty_filters(**config) -> dict:
         keywords = dict()
-        EXCAPE = '\"'
         OR = 'OR' 
         def parse_filters(filters:list):
             ret = ''
             for idx in range(0,len(filters)):
                 filter = filters[idx]
-                ret += (EXCAPE + filter + EXCAPE)  
+                ret += ("\""  + filter + "\"" + " ") 
                 if idx != len(filters) - 1:
-                    ret += OR
+                    ret += (OR + " ")
             return ret
         for k,v in config['keywords'].items():
             keywords[k] = parse_filters(v['filters'])
@@ -61,6 +60,7 @@ def get_daily_papers(topic,query="ocr", max_results=20, gpt=False):
     """
     # output 
     content = dict() 
+    num = 1
 
     # Construct the default API client.
     client = arxiv.Client()
@@ -95,8 +95,9 @@ def get_daily_papers(topic,query="ocr", max_results=20, gpt=False):
         paper_url = arxiv_url + 'abs/' + paper_key
         
         try:
-            content[paper_key] = "|**{}**|**{}**|**{}**|**[{}]({})**|\n".format(
-                    update_time,paper_title,response,paper_id,paper_url)
+            content[paper_key] = "|**{}**|**{}**|**{}**|**{}**|**[{}]({})**|\n".format(
+                    num, update_time,paper_title,response,paper_id,paper_url)
+            num = num + 1
         except Exception as e:
             logging.error(f"exception: {e} with id: {paper_key}")
 
@@ -129,8 +130,8 @@ def tracker(**config):
             f.write("<details>\n")
             for key, value in item.items():
                 f.write(f"  <summary><b>{key}</b></summary>\n\n")
-                f.write("| Update Date | Title | GPT | Paper ID |\n")
-                f.write("|-------------|-------|-----|----------|\n")
+                f.write("| Num | Update Date | Title | GPT | Paper ID |\n")
+                f.write("|-----|-------------|-------|-----|----------|\n")
                 for _, v in value.items():
                     f.write(f"{v}")
                 f.write("\n")
