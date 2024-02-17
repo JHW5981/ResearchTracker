@@ -8,8 +8,8 @@ on:
   
 env:
 
-  GITHUB_USER_NAME:sjtu-jhw
-  GITHUB_USER_EMAIL:jhw15763365981@gmail.com
+  GITHUB_USER_NAME: sjtu-jhw
+  GITHUB_USER_EMAIL: jhw15763365981@gmail.com
 
 jobs:
   build:
@@ -43,7 +43,7 @@ jobs:
       uses: github-actions-x/commit@v2.9
       with:
         # Github Token with commit access
-        github-token: ${{ secrets.GITHUB_TOKEN }
+        github-token: ${{ secrets.GITHUB_TOKEN }}
         # Specify commit message
         commit-message: "Update README.mc"
         # Specific files to add.
