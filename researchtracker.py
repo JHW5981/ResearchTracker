@@ -46,7 +46,7 @@ def load_config(config_file:str) -> dict:
 
 def analyzer(abs:str) -> str:
     chat = Chat("你是一个帮助我Summarize文章摘要的助手")
-    conversation_list = chat.ask(f"请帮我简化一下文章的摘要，告诉我他们做了什么事情就行，并告诉我这篇文章是不是与论文PDF解析相关，摘要如下：{abs}")
+    conversation_list = chat.ask(f"请帮我简化一下文章的摘要，告诉我他们做了什么事情就行，摘要如下：{abs}")
     response = conversation_list[-1]['content']
     return response.replace('\n', '<br>')
 
