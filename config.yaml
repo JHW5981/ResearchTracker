@@ -1,17 +1,19 @@
 # basics
 user_name: "sjtu-jhw"
 repo_name: "ResearchTracker"
-max_results: 20
+max_results: 50
 
 # file paths
 md_readme_path: 'README.md'
 
 # GPT
-gpt: False
+gpt: True
 
 # keywords to search
 keywords:
-    # "OCR": 
-    #     filters: ["OCR", "Character Recognition"]
     "Document Analysis":
-        filters: ["Document Analysis", "Layout Analysis", "OCR", "Document Parsing"]
+        filters: ["Document Analysis", "Layout Analysis", "OCR", "Document Parsing", "Document Content Analysis"]
+    "Data Centric":
+        filters: ["Data Centric", ]
+    "LLM":
+        filters: ["LLM", "Language Model", "Vision-Language Models", "Large Language Model"]
