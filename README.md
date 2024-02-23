@@ -61,56 +61,56 @@
 
 | Num | Update Date | Title | GPT | Paper ID |
 |-----|-------------|-------|-----|----------|
-|**1**|**2024-02-19**|**Training Green AI Models Using Elite Samples**|**Not GPT**|**[2402.12010v1](http://arxiv.org/abs/2402.12010)**|
-|**2**|**2024-02-18**|**Solving Data-centric Tasks using Large Language Models**|**Not GPT**|**[2402.11734v1](http://arxiv.org/abs/2402.11734)**|
-|**3**|**2024-02-18**|**Efficient Multimodal Learning from Data-centric Perspective**|**Not GPT**|**[2402.11530v1](http://arxiv.org/abs/2402.11530)**|
-|**4**|**2024-02-12**|**Empowering Federated Learning for Massive Models with NVIDIA FLARE**|**Not GPT**|**[2402.07792v1](http://arxiv.org/abs/2402.07792)**|
-|**5**|**2024-02-12**|**Privacy-Preserving Gaze Data Streaming in Immersive Interactive Virtual Reality: Robustness and User Experience**|**Not GPT**|**[2402.07687v1](http://arxiv.org/abs/2402.07687)**|
-|**6**|**2024-02-06**|**A Data Centric Approach for Unsupervised Domain Generalization via Retrieval from Web Scale Multimodal Data**|**Not GPT**|**[2402.04416v1](http://arxiv.org/abs/2402.04416)**|
-|**7**|**2024-02-01**|**Roadmap on Data-Centric Materials Science**|**Not GPT**|**[2402.10932v1](http://arxiv.org/abs/2402.10932)**|
-|**8**|**2024-02-01**|**MobilityDL: A Review of Deep Learning From Trajectory Data**|**Not GPT**|**[2402.00732v1](http://arxiv.org/abs/2402.00732)**|
-|**9**|**2024-02-01**|**EXMOS: Explanatory Model Steering Through Multifaceted Explanations and Data Configurations**|**Not GPT**|**[2402.00491v1](http://arxiv.org/abs/2402.00491)**|
-|**10**|**2024-02-02**|**A Survey on Data-Centric Recommender Systems**|**Not GPT**|**[2401.17878v2](http://arxiv.org/abs/2401.17878)**|
-|**11**|**2024-01-30**|**Towards Urban General Intelligence: A Review and Outlook of Urban Foundation Models**|**Not GPT**|**[2402.01749v1](http://arxiv.org/abs/2402.01749)**|
-|**12**|**2024-01-26**|**Toward Practical Automatic Speech Recognition and Post-Processing: a Call for Explainable Error Benchmark Guideline**|**Not GPT**|**[2401.14625v1](http://arxiv.org/abs/2401.14625)**|
-|**13**|**2024-01-26**|**Alternative Speech: Complementary Method to Counter-Narrative for Better Discourse**|**Not GPT**|**[2401.14616v1](http://arxiv.org/abs/2401.14616)**|
-|**14**|**2024-02-12**|**Challenging Low Homophily in Social Recommendation**|**Not GPT**|**[2401.14606v2](http://arxiv.org/abs/2401.14606)**|
-|**15**|**2024-01-24**|**The Landscape of Compute-near-memory and Compute-in-memory: A Research and Commercial Overview**|**Not GPT**|**[2401.14428v1](http://arxiv.org/abs/2401.14428)**|
-|**16**|**2024-01-26**|**Data-Centric Evolution in Autonomous Driving: A Comprehensive Survey of Big Data System, Data Mining, and Closed-Loop Technologies**|**Not GPT**|**[2401.12888v2](http://arxiv.org/abs/2401.12888)**|
-|**17**|**2024-01-24**|**Falcon: Fair Active Learning using Multi-armed Bandits**|**Not GPT**|**[2401.12722v2](http://arxiv.org/abs/2401.12722)**|
-|**18**|**2024-01-22**|**Exploring descriptors for titanium microstructure via digital fingerprints from variational autoencoders**|**Not GPT**|**[2401.11967v1](http://arxiv.org/abs/2401.11967)**|
-|**19**|**2024-01-21**|**An Interacting Wasserstein Gradient Flow Strategy to Robust Bayesian Inference**|**Not GPT**|**[2401.11607v1](http://arxiv.org/abs/2401.11607)**|
-|**20**|**2024-01-23**|**D2K: Turning Historical Data into Retrievable Knowledge for Recommender Systems**|**Not GPT**|**[2401.11478v2](http://arxiv.org/abs/2401.11478)**|
-|**21**|**2024-01-10**|**GOODAT: Towards Test-time Graph Out-of-Distribution Detection**|**Not GPT**|**[2401.06176v1](http://arxiv.org/abs/2401.06176)**|
-|**22**|**2024-01-10**|**Inconsistency-Based Data-Centric Active Open-Set Annotation**|**Not GPT**|**[2401.04923v1](http://arxiv.org/abs/2401.04923)**|
-|**23**|**2024-01-13**|**Towards Explainable Artificial Intelligence (XAI): A Data Mining Perspective**|**Not GPT**|**[2401.04374v2](http://arxiv.org/abs/2401.04374)**|
-|**24**|**2024-01-08**|**Attention versus Contrastive Learning of Tabular Data -- A Data-centric Benchmarking**|**Not GPT**|**[2401.04266v1](http://arxiv.org/abs/2401.04266)**|
-|**25**|**2024-01-04**|**Data-Centric Foundation Models in Computational Healthcare: A Survey**|**Not GPT**|**[2401.02458v1](http://arxiv.org/abs/2401.02458)**|
-|**26**|**2024-01-03**|**CodeFuse-Query: A Data-Centric Static Code Analysis System for Large-Scale Organizations**|**Not GPT**|**[2401.01571v1](http://arxiv.org/abs/2401.01571)**|
-|**27**|**2024-01-01**|**Improve Fidelity and Utility of Synthetic Credit Card Transaction Time Series from Data-centric Perspective**|**Not GPT**|**[2401.00965v1](http://arxiv.org/abs/2401.00965)**|
-|**28**|**2023-12-24**|**README: Bridging Medical Jargon and Lay Understanding for Patient Education through Data-Centric NLP**|**Not GPT**|**[2312.15561v1](http://arxiv.org/abs/2312.15561)**|
-|**29**|**2023-12-22**|**Pub/Sub Message Brokers for GenAI**|**Not GPT**|**[2312.14647v1](http://arxiv.org/abs/2312.14647)**|
-|**30**|**2023-12-22**|**CaptainCook4D: A dataset for understanding errors in procedural activities**|**Not GPT**|**[2312.14556v1](http://arxiv.org/abs/2312.14556)**|
-|**31**|**2023-12-15**|**Quilt: Robust Data Segment Selection against Concept Drifts**|**Not GPT**|**[2312.09691v1](http://arxiv.org/abs/2312.09691)**|
-|**32**|**2023-12-08**|**Data-Centric Machine Learning for Geospatial Remote Sensing Data**|**Not GPT**|**[2312.05327v1](http://arxiv.org/abs/2312.05327)**|
-|**33**|**2023-12-08**|**A Review On Table Recognition Based On Deep Learning**|**Not GPT**|**[2312.04808v1](http://arxiv.org/abs/2312.04808)**|
-|**34**|**2024-01-31**|**Efficient Large Language Models: A Survey**|**Not GPT**|**[2312.03863v3](http://arxiv.org/abs/2312.03863)**|
-|**35**|**2023-12-06**|**Data-Centric Digital Agriculture: A Perspective**|**Not GPT**|**[2312.03437v1](http://arxiv.org/abs/2312.03437)**|
-|**36**|**2023-12-06**|**OMNIINPUT: A Model-centric Evaluation Framework through Output Distribution**|**Not GPT**|**[2312.03291v1](http://arxiv.org/abs/2312.03291)**|
-|**37**|**2023-12-05**|**Empowering the 6G Cellular Architecture with Open RAN**|**Not GPT**|**[2312.02746v1](http://arxiv.org/abs/2312.02746)**|
-|**38**|**2023-12-04**|**Cybersecurity threats in FinTech: A systematic review**|**Not GPT**|**[2312.01752v1](http://arxiv.org/abs/2312.01752)**|
-|**39**|**2023-12-03**|**Robust Computer Vision in an Ever-Changing World: A Survey of Techniques for Tackling Distribution Shifts**|**Not GPT**|**[2312.01540v1](http://arxiv.org/abs/2312.01540)**|
-|**40**|**2023-12-03**|**FlatProxy: A DPU-centric Service Mesh Architecture for Hyperscale Cloud-native Application**|**Not GPT**|**[2312.01297v1](http://arxiv.org/abs/2312.01297)**|
-|**41**|**2023-12-02**|**An Empirical Study of Automated Mislabel Detection in Real World Vision Datasets**|**Not GPT**|**[2312.02200v1](http://arxiv.org/abs/2312.02200)**|
-|**42**|**2023-11-23**|**When is Off-Policy Evaluation Useful? A Data-Centric Perspective**|**Not GPT**|**[2311.14110v1](http://arxiv.org/abs/2311.14110)**|
-|**43**|**2023-11-22**|**Data Acquisition: A New Frontier in Data-centric AI**|**Not GPT**|**[2311.13712v1](http://arxiv.org/abs/2311.13712)**|
-|**44**|**2023-11-21**|**DMLR: Data-centric Machine Learning Research -- Past, Present and Future**|**Not GPT**|**[2311.13028v1](http://arxiv.org/abs/2311.13028)**|
-|**45**|**2023-11-21**|**Learning and Controlling Silicon Dopant Transitions in Graphene using Scanning Transmission Electron Microscopy**|**Not GPT**|**[2311.17894v1](http://arxiv.org/abs/2311.17894)**|
-|**46**|**2023-11-14**|**Total Empiricism: Learning from Data**|**Not GPT**|**[2311.08315v1](http://arxiv.org/abs/2311.08315)**|
-|**47**|**2023-11-12**|**Empowering Learning: Standalone, Browser-Only Courses for Seamless Education**|**Not GPT**|**[2311.06961v1](http://arxiv.org/abs/2311.06961)**|
-|**48**|**2023-11-09**|**The Paradox of Noise: An Empirical Study of Noise-Infusion Mechanisms to Improve Generalization, Stability, and Privacy in Federated Learning**|**Not GPT**|**[2311.05790v1](http://arxiv.org/abs/2311.05790)**|
-|**49**|**2023-11-07**|**A Data Perspective on Enhanced Identity Preservation for Diffusion Personalization**|**Not GPT**|**[2311.04315v1](http://arxiv.org/abs/2311.04315)**|
-|**50**|**2023-11-07**|**Analysis and Applications of Deep Learning with Finite Samples in Full Life-Cycle Intelligence of Nuclear Power Generation**|**Not GPT**|**[2311.04247v1](http://arxiv.org/abs/2311.04247)**|
+|**1**|**2024-02-20**|**Static vs. Dynamic Databases for Indoor Localization based on Wi-Fi Fingerprinting: A Discussion from a Data Perspective**|**Not GPT**|**[2402.12756v1](http://arxiv.org/abs/2402.12756)**|
+|**2**|**2024-02-19**|**Training Green AI Models Using Elite Samples**|**Not GPT**|**[2402.12010v1](http://arxiv.org/abs/2402.12010)**|
+|**3**|**2024-02-18**|**Solving Data-centric Tasks using Large Language Models**|**Not GPT**|**[2402.11734v1](http://arxiv.org/abs/2402.11734)**|
+|**4**|**2024-02-18**|**Efficient Multimodal Learning from Data-centric Perspective**|**Not GPT**|**[2402.11530v1](http://arxiv.org/abs/2402.11530)**|
+|**5**|**2024-02-12**|**Empowering Federated Learning for Massive Models with NVIDIA FLARE**|**Not GPT**|**[2402.07792v1](http://arxiv.org/abs/2402.07792)**|
+|**6**|**2024-02-21**|**Privacy-Preserving Gaze Data Streaming in Immersive Interactive Virtual Reality: Robustness and User Experience**|**Not GPT**|**[2402.07687v2](http://arxiv.org/abs/2402.07687)**|
+|**7**|**2024-02-06**|**A Data Centric Approach for Unsupervised Domain Generalization via Retrieval from Web Scale Multimodal Data**|**Not GPT**|**[2402.04416v1](http://arxiv.org/abs/2402.04416)**|
+|**8**|**2024-02-01**|**Roadmap on Data-Centric Materials Science**|**Not GPT**|**[2402.10932v1](http://arxiv.org/abs/2402.10932)**|
+|**9**|**2024-02-01**|**MobilityDL: A Review of Deep Learning From Trajectory Data**|**Not GPT**|**[2402.00732v1](http://arxiv.org/abs/2402.00732)**|
+|**10**|**2024-02-01**|**EXMOS: Explanatory Model Steering Through Multifaceted Explanations and Data Configurations**|**Not GPT**|**[2402.00491v1](http://arxiv.org/abs/2402.00491)**|
+|**11**|**2024-02-02**|**A Survey on Data-Centric Recommender Systems**|**Not GPT**|**[2401.17878v2](http://arxiv.org/abs/2401.17878)**|
+|**12**|**2024-01-30**|**Towards Urban General Intelligence: A Review and Outlook of Urban Foundation Models**|**Not GPT**|**[2402.01749v1](http://arxiv.org/abs/2402.01749)**|
+|**13**|**2024-01-26**|**Toward Practical Automatic Speech Recognition and Post-Processing: a Call for Explainable Error Benchmark Guideline**|**Not GPT**|**[2401.14625v1](http://arxiv.org/abs/2401.14625)**|
+|**14**|**2024-01-26**|**Alternative Speech: Complementary Method to Counter-Narrative for Better Discourse**|**Not GPT**|**[2401.14616v1](http://arxiv.org/abs/2401.14616)**|
+|**15**|**2024-02-20**|**Challenging Low Homophily in Social Recommendation**|**Not GPT**|**[2401.14606v3](http://arxiv.org/abs/2401.14606)**|
+|**16**|**2024-01-24**|**The Landscape of Compute-near-memory and Compute-in-memory: A Research and Commercial Overview**|**Not GPT**|**[2401.14428v1](http://arxiv.org/abs/2401.14428)**|
+|**17**|**2024-01-26**|**Data-Centric Evolution in Autonomous Driving: A Comprehensive Survey of Big Data System, Data Mining, and Closed-Loop Technologies**|**Not GPT**|**[2401.12888v2](http://arxiv.org/abs/2401.12888)**|
+|**18**|**2024-01-24**|**Falcon: Fair Active Learning using Multi-armed Bandits**|**Not GPT**|**[2401.12722v2](http://arxiv.org/abs/2401.12722)**|
+|**19**|**2024-01-22**|**Exploring descriptors for titanium microstructure via digital fingerprints from variational autoencoders**|**Not GPT**|**[2401.11967v1](http://arxiv.org/abs/2401.11967)**|
+|**20**|**2024-01-21**|**An Interacting Wasserstein Gradient Flow Strategy to Robust Bayesian Inference**|**Not GPT**|**[2401.11607v1](http://arxiv.org/abs/2401.11607)**|
+|**21**|**2024-01-23**|**D2K: Turning Historical Data into Retrievable Knowledge for Recommender Systems**|**Not GPT**|**[2401.11478v2](http://arxiv.org/abs/2401.11478)**|
+|**22**|**2024-01-10**|**GOODAT: Towards Test-time Graph Out-of-Distribution Detection**|**Not GPT**|**[2401.06176v1](http://arxiv.org/abs/2401.06176)**|
+|**23**|**2024-01-10**|**Inconsistency-Based Data-Centric Active Open-Set Annotation**|**Not GPT**|**[2401.04923v1](http://arxiv.org/abs/2401.04923)**|
+|**24**|**2024-01-13**|**Towards Explainable Artificial Intelligence (XAI): A Data Mining Perspective**|**Not GPT**|**[2401.04374v2](http://arxiv.org/abs/2401.04374)**|
+|**25**|**2024-01-08**|**Attention versus Contrastive Learning of Tabular Data -- A Data-centric Benchmarking**|**Not GPT**|**[2401.04266v1](http://arxiv.org/abs/2401.04266)**|
+|**26**|**2024-01-04**|**Data-Centric Foundation Models in Computational Healthcare: A Survey**|**Not GPT**|**[2401.02458v1](http://arxiv.org/abs/2401.02458)**|
+|**27**|**2024-01-03**|**CodeFuse-Query: A Data-Centric Static Code Analysis System for Large-Scale Organizations**|**Not GPT**|**[2401.01571v1](http://arxiv.org/abs/2401.01571)**|
+|**28**|**2024-01-01**|**Improve Fidelity and Utility of Synthetic Credit Card Transaction Time Series from Data-centric Perspective**|**Not GPT**|**[2401.00965v1](http://arxiv.org/abs/2401.00965)**|
+|**29**|**2023-12-24**|**README: Bridging Medical Jargon and Lay Understanding for Patient Education through Data-Centric NLP**|**Not GPT**|**[2312.15561v1](http://arxiv.org/abs/2312.15561)**|
+|**30**|**2024-02-21**|**Towards Message Brokers for Generative AI: Survey, Challenges, and Opportunities**|**Not GPT**|**[2312.14647v2](http://arxiv.org/abs/2312.14647)**|
+|**31**|**2023-12-22**|**CaptainCook4D: A dataset for understanding errors in procedural activities**|**Not GPT**|**[2312.14556v1](http://arxiv.org/abs/2312.14556)**|
+|**32**|**2023-12-15**|**Quilt: Robust Data Segment Selection against Concept Drifts**|**Not GPT**|**[2312.09691v1](http://arxiv.org/abs/2312.09691)**|
+|**33**|**2023-12-08**|**Data-Centric Machine Learning for Geospatial Remote Sensing Data**|**Not GPT**|**[2312.05327v1](http://arxiv.org/abs/2312.05327)**|
+|**34**|**2023-12-08**|**A Review On Table Recognition Based On Deep Learning**|**Not GPT**|**[2312.04808v1](http://arxiv.org/abs/2312.04808)**|
+|**35**|**2024-01-31**|**Efficient Large Language Models: A Survey**|**Not GPT**|**[2312.03863v3](http://arxiv.org/abs/2312.03863)**|
+|**36**|**2023-12-06**|**Data-Centric Digital Agriculture: A Perspective**|**Not GPT**|**[2312.03437v1](http://arxiv.org/abs/2312.03437)**|
+|**37**|**2023-12-06**|**OMNIINPUT: A Model-centric Evaluation Framework through Output Distribution**|**Not GPT**|**[2312.03291v1](http://arxiv.org/abs/2312.03291)**|
+|**38**|**2023-12-05**|**Empowering the 6G Cellular Architecture with Open RAN**|**Not GPT**|**[2312.02746v1](http://arxiv.org/abs/2312.02746)**|
+|**39**|**2023-12-04**|**Cybersecurity threats in FinTech: A systematic review**|**Not GPT**|**[2312.01752v1](http://arxiv.org/abs/2312.01752)**|
+|**40**|**2023-12-03**|**Robust Computer Vision in an Ever-Changing World: A Survey of Techniques for Tackling Distribution Shifts**|**Not GPT**|**[2312.01540v1](http://arxiv.org/abs/2312.01540)**|
+|**41**|**2023-12-03**|**FlatProxy: A DPU-centric Service Mesh Architecture for Hyperscale Cloud-native Application**|**Not GPT**|**[2312.01297v1](http://arxiv.org/abs/2312.01297)**|
+|**42**|**2023-12-02**|**An Empirical Study of Automated Mislabel Detection in Real World Vision Datasets**|**Not GPT**|**[2312.02200v1](http://arxiv.org/abs/2312.02200)**|
+|**43**|**2023-11-23**|**When is Off-Policy Evaluation Useful? A Data-Centric Perspective**|**Not GPT**|**[2311.14110v1](http://arxiv.org/abs/2311.14110)**|
+|**44**|**2023-11-22**|**Data Acquisition: A New Frontier in Data-centric AI**|**Not GPT**|**[2311.13712v1](http://arxiv.org/abs/2311.13712)**|
+|**45**|**2023-11-21**|**DMLR: Data-centric Machine Learning Research -- Past, Present and Future**|**Not GPT**|**[2311.13028v1](http://arxiv.org/abs/2311.13028)**|
+|**46**|**2023-11-21**|**Learning and Controlling Silicon Dopant Transitions in Graphene using Scanning Transmission Electron Microscopy**|**Not GPT**|**[2311.17894v1](http://arxiv.org/abs/2311.17894)**|
+|**47**|**2023-11-14**|**Total Empiricism: Learning from Data**|**Not GPT**|**[2311.08315v1](http://arxiv.org/abs/2311.08315)**|
+|**48**|**2023-11-12**|**Empowering Learning: Standalone, Browser-Only Courses for Seamless Education**|**Not GPT**|**[2311.06961v1](http://arxiv.org/abs/2311.06961)**|
+|**49**|**2023-11-09**|**The Paradox of Noise: An Empirical Study of Noise-Infusion Mechanisms to Improve Generalization, Stability, and Privacy in Federated Learning**|**Not GPT**|**[2311.05790v1](http://arxiv.org/abs/2311.05790)**|
+|**50**|**2023-11-07**|**A Data Perspective on Enhanced Identity Preservation for Diffusion Personalization**|**Not GPT**|**[2311.04315v1](http://arxiv.org/abs/2311.04315)**|
 
 </details>
 <details>
@@ -118,55 +118,55 @@
 
 | Num | Update Date | Title | GPT | Paper ID |
 |-----|-------------|-------|-----|----------|
-|**1**|**2024-02-19**|**Sequoia: Scalable, Robust, and Hardware-aware Speculative Decoding**|**Not GPT**|**[2402.12374v1](http://arxiv.org/abs/2402.12374)**|
-|**2**|**2024-02-19**|**AnaloBench: Benchmarking the Identification of Abstract and Long-context Analogies**|**Not GPT**|**[2402.12370v1](http://arxiv.org/abs/2402.12370)**|
-|**3**|**2024-02-19**|**A synthetic data approach for domain generalization of NLI models**|**Not GPT**|**[2402.12368v1](http://arxiv.org/abs/2402.12368)**|
-|**4**|**2024-02-19**|**A Critical Evaluation of AI Feedback for Aligning Large Language Models**|**Not GPT**|**[2402.12366v1](http://arxiv.org/abs/2402.12366)**|
-|**5**|**2024-02-19**|**Emergent Word Order Universals from Cognitively-Motivated Language Models**|**Not GPT**|**[2402.12363v1](http://arxiv.org/abs/2402.12363)**|
-|**6**|**2024-02-19**|**Graph-Based Retriever Captures the Long Tail of Biomedical Knowledge**|**Not GPT**|**[2402.12352v1](http://arxiv.org/abs/2402.12352)**|
-|**7**|**2024-02-19**|**GTBench: Uncovering the Strategic Reasoning Limitations of LLMs via Game-Theoretic Evaluations**|**Not GPT**|**[2402.12348v1](http://arxiv.org/abs/2402.12348)**|
-|**8**|**2024-02-19**|**Emulated Disalignment: Safety Alignment for Large Language Models May Backfire!**|**Not GPT**|**[2402.12343v1](http://arxiv.org/abs/2402.12343)**|
-|**9**|**2024-02-19**|**Robust CLIP: Unsupervised Adversarial Fine-Tuning of Vision Embeddings for Robust Large Vision-Language Models**|**Not GPT**|**[2402.12336v1](http://arxiv.org/abs/2402.12336)**|
-|**10**|**2024-02-19**|**Query-Based Adversarial Prompt Generation**|**Not GPT**|**[2402.12329v1](http://arxiv.org/abs/2402.12329)**|
-|**11**|**2024-02-19**|**Shall We Talk: Exploring Spontaneous Collaborations of Competing LLM Agents**|**Not GPT**|**[2402.12327v1](http://arxiv.org/abs/2402.12327)**|
-|**12**|**2024-02-19**|**LLM Agents for Psychology: A Study on Gamified Assessments**|**Not GPT**|**[2402.12326v1](http://arxiv.org/abs/2402.12326)**|
-|**13**|**2024-02-19**|**ARKS: Active Retrieval in Knowledge Soup for Code Generation**|**Not GPT**|**[2402.12317v1](http://arxiv.org/abs/2402.12317)**|
-|**14**|**2024-02-19**|**Is Open-Source There Yet? A Comparative Study on Commercial and Open-Source LLMs in Their Ability to Label Chest X-Ray Reports**|**Not GPT**|**[2402.12298v1](http://arxiv.org/abs/2402.12298)**|
-|**15**|**2024-02-19**|**KARL: Knowledge-Aware Retrieval and Representations aid Retention and Learning in Students**|**Not GPT**|**[2402.12291v1](http://arxiv.org/abs/2402.12291)**|
-|**16**|**2024-02-19**|**DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models**|**Not GPT**|**[2402.12289v1](http://arxiv.org/abs/2402.12289)**|
-|**17**|**2024-02-19**|**Adaptive Skeleton Graph Decoding**|**Not GPT**|**[2402.12280v1](http://arxiv.org/abs/2402.12280)**|
-|**18**|**2024-02-19**|**Key ingredients for effective zero-shot cross-lingual knowledge transfer in generative tasks**|**Not GPT**|**[2402.12279v1](http://arxiv.org/abs/2402.12279)**|
-|**19**|**2024-02-19**|**Explain then Rank: Scale Calibration of Neural Rankers Using Natural Language Explanations from Large Language Models**|**Not GPT**|**[2402.12276v1](http://arxiv.org/abs/2402.12276)**|
-|**20**|**2024-02-19**|**WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment**|**Not GPT**|**[2402.12275v1](http://arxiv.org/abs/2402.12275)**|
-|**21**|**2024-02-19**|**High-quality Data-to-Text Generation for Severely Under-Resourced Languages with Out-of-the-box Large Language Models**|**Not GPT**|**[2402.12267v1](http://arxiv.org/abs/2402.12267)**|
-|**22**|**2024-02-19**|**Uncertainty quantification in fine-tuned LLMs using LoRA ensembles**|**Not GPT**|**[2402.12264v1](http://arxiv.org/abs/2402.12264)**|
-|**23**|**2024-02-19**|**NEO-BENCH: Evaluating Robustness of Large Language Models with Neologisms**|**Not GPT**|**[2402.12261v1](http://arxiv.org/abs/2402.12261)**|
-|**24**|**2024-02-19**|**Open3DSG: Open-Vocabulary 3D Scene Graphs from Point Clouds with Queryable Objects and Open-Set Relationships**|**Not GPT**|**[2402.12259v1](http://arxiv.org/abs/2402.12259)**|
-|**25**|**2024-02-19**|**Task-Oriented Dialogue with In-Context Learning**|**Not GPT**|**[2402.12234v1](http://arxiv.org/abs/2402.12234)**|
-|**26**|**2024-02-19**|**Empirical Study on Updating Key-Value Memories in Transformer Feed-forward Layers**|**Not GPT**|**[2402.12233v1](http://arxiv.org/abs/2402.12233)**|
-|**27**|**2024-02-19**|**AnyGPT: Unified Multimodal LLM with Discrete Sequence Modeling**|**Not GPT**|**[2402.12226v1](http://arxiv.org/abs/2402.12226)**|
-|**28**|**2024-02-19**|**CovRL: Fuzzing JavaScript Engines with Coverage-Guided Reinforcement Learning for LLM-based Mutation**|**Not GPT**|**[2402.12222v1](http://arxiv.org/abs/2402.12222)**|
-|**29**|**2024-02-19**|**Bayesian Parameter-Efficient Fine-Tuning for Overcoming Catastrophic Forgetting**|**Not GPT**|**[2402.12220v1](http://arxiv.org/abs/2402.12220)**|
-|**30**|**2024-02-19**|**Reformatted Alignment**|**Not GPT**|**[2402.12219v1](http://arxiv.org/abs/2402.12219)**|
-|**31**|**2024-02-19**|**Polarization of Autonomous Generative AI Agents Under Echo Chambers**|**Not GPT**|**[2402.12212v1](http://arxiv.org/abs/2402.12212)**|
-|**32**|**2024-02-19**|**Language-Codec: Reducing the Gaps Between Discrete Codec Representation and Speech Language Models**|**Not GPT**|**[2402.12208v1](http://arxiv.org/abs/2402.12208)**|
-|**33**|**2024-02-19**|**Enhancing Multilingual Capabilities of Large Language Models through Self-Distillation from Resource-Rich Languages**|**Not GPT**|**[2402.12204v1](http://arxiv.org/abs/2402.12204)**|
-|**34**|**2024-02-19**|**Zero shot VLMs for hate meme detection: Are we there yet?**|**Not GPT**|**[2402.12198v1](http://arxiv.org/abs/2402.12198)**|
-|**35**|**2024-02-19**|**Browse and Concentrate: Comprehending Multimodal Content via prior-LLM Context Fusion**|**Not GPT**|**[2402.12195v1](http://arxiv.org/abs/2402.12195)**|
-|**36**|**2024-02-19**|**A Chinese Dataset for Evaluating the Safeguards in Large Language Models**|**Not GPT**|**[2402.12193v1](http://arxiv.org/abs/2402.12193)**|
-|**37**|**2024-02-19**|**Amplifying Training Data Exposure through Fine-Tuning with Pseudo-Labeled Memberships**|**Not GPT**|**[2402.12189v1](http://arxiv.org/abs/2402.12189)**|
-|**38**|**2024-02-19**|**ChartX & ChartVLM: A Versatile Benchmark and Foundation Model for Complicated Chart Reasoning**|**Not GPT**|**[2402.12185v1](http://arxiv.org/abs/2402.12185)**|
-|**39**|**2024-02-19**|**Mafin: Enhancing Black-Box Embeddings with Model Augmented Fine-tuning**|**Not GPT**|**[2402.12177v1](http://arxiv.org/abs/2402.12177)**|
-|**40**|**2024-02-19**|**BIDER: Bridging Knowledge Inconsistency for Efficient Retrieval-Augmented LLMs via Key Supporting Evidence**|**Not GPT**|**[2402.12174v1](http://arxiv.org/abs/2402.12174)**|
-|**41**|**2024-02-19**|**Defending Against Weight-Poisoning Backdoor Attacks for Parameter-Efficient Fine-Tuning**|**Not GPT**|**[2402.12168v1](http://arxiv.org/abs/2402.12168)**|
-|**42**|**2024-02-19**|**Endowing Pre-trained Graph Models with Provable Fairness**|**Not GPT**|**[2402.12161v1](http://arxiv.org/abs/2402.12161)**|
-|**43**|**2024-02-19**|**Transformer-based Causal Language Models Perform Clustering**|**Not GPT**|**[2402.12151v1](http://arxiv.org/abs/2402.12151)**|
-|**44**|**2024-02-19**|**Your Large Language Model is Secretly a Fairness Proponent and You Should Prompt it Like One**|**Not GPT**|**[2402.12150v1](http://arxiv.org/abs/2402.12150)**|
-|**45**|**2024-02-19**|**End-to-end multilingual fact-checking at scale**|**Not GPT**|**[2402.12147v1](http://arxiv.org/abs/2402.12147)**|
-|**46**|**2024-02-19**|**Meta Ranking: Less Capable Language Models are Capable for Single Response Judgement**|**Not GPT**|**[2402.12146v1](http://arxiv.org/abs/2402.12146)**|
-|**47**|**2024-02-19**|**Evaluating Image Review Ability of Vision Language Models**|**Not GPT**|**[2402.12121v1](http://arxiv.org/abs/2402.12121)**|
-|**48**|**2024-02-19**|**Is It a Free Lunch for Removing Outliers during Pretraining?**|**Not GPT**|**[2402.12102v1](http://arxiv.org/abs/2402.12102)**|
-|**49**|**2024-02-19**|**Groot: Adversarial Testing for Generative Text-to-Image Models with Tree-based Semantic Transformation**|**Not GPT**|**[2402.12100v1](http://arxiv.org/abs/2402.12100)**|
-|**50**|**2024-02-19**|**Do Large Language Models Understand Logic or Just Mimick Context?**|**Not GPT**|**[2402.12091v1](http://arxiv.org/abs/2402.12091)**|
+|**1**|**2024-02-21**|**Coercing LLMs to do and reveal (almost) anything**|**Not GPT**|**[2402.14020v1](http://arxiv.org/abs/2402.14020)**|
+|**2**|**2024-02-21**|**Is LLM-as-a-Judge Robust? Investigating Universal Adversarial Attacks on Zero-shot LLM Assessment**|**Not GPT**|**[2402.14016v1](http://arxiv.org/abs/2402.14016)**|
+|**3**|**2024-02-21**|**OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-Level Bilingual Multimodal Scientific Problems**|**Not GPT**|**[2402.14008v1](http://arxiv.org/abs/2402.14008)**|
+|**4**|**2024-02-21**|**Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models**|**Not GPT**|**[2402.14007v1](http://arxiv.org/abs/2402.14007)**|
+|**5**|**2024-02-21**|**Hallucinations or Attention Misdirection? The Path to Strategic Value Extraction in Business Using Large Language Models**|**Not GPT**|**[2402.14002v1](http://arxiv.org/abs/2402.14002)**|
+|**6**|**2024-02-21**|**Analysing The Impact of Sequence Composition on Language Model Pre-Training**|**Not GPT**|**[2402.13991v1](http://arxiv.org/abs/2402.13991)**|
+|**7**|**2024-02-21**|**Towards Building Multilingual Language Model for Medicine**|**Not GPT**|**[2402.13963v1](http://arxiv.org/abs/2402.13963)**|
+|**8**|**2024-02-21**|**Measuring Social Biases in Masked Language Models by Proxy of Prediction Quality**|**Not GPT**|**[2402.13954v1](http://arxiv.org/abs/2402.13954)**|
+|**9**|**2024-02-21**|**Making Reasoning Matter: Measuring and Improving Faithfulness of Chain-of-Thought Reasoning**|**Not GPT**|**[2402.13950v1](http://arxiv.org/abs/2402.13950)**|
+|**10**|**2024-02-21**|**Do Efficient Transformers Really Save Computation?**|**Not GPT**|**[2402.13934v1](http://arxiv.org/abs/2402.13934)**|
+|**11**|**2024-02-21**|**Large Language Models are Vulnerable to Bait-and-Switch Attacks for Generating Harmful Content**|**Not GPT**|**[2402.13926v1](http://arxiv.org/abs/2402.13926)**|
+|**12**|**2024-02-21**|**SYNFAC-EDIT: Synthetic Imitation Edit Feedback for Factual Alignment in Clinical Summarization**|**Not GPT**|**[2402.13919v1](http://arxiv.org/abs/2402.13919)**|
+|**13**|**2024-02-21**|**What Linguistic Features and Languages are Important in LLM Translation?**|**Not GPT**|**[2402.13917v1](http://arxiv.org/abs/2402.13917)**|
+|**14**|**2024-02-21**|**Calibrating Large Language Models with Sample Consistency**|**Not GPT**|**[2402.13904v1](http://arxiv.org/abs/2402.13904)**|
+|**15**|**2024-02-21**|**Beyond Probabilities: Unveiling the Misalignment in Evaluating Large Language Models**|**Not GPT**|**[2402.13887v1](http://arxiv.org/abs/2402.13887)**|
+|**16**|**2024-02-21**|**$\texttt{Se}^2$: $\textit{Se}$quential Example $\textit{Se}$lection for In-Context Learning**|**Not GPT**|**[2402.13874v1](http://arxiv.org/abs/2402.13874)**|
+|**17**|**2024-02-21**|**An Explainable Transformer-based Model for Phishing Email Detection: A Large Language Model Approach**|**Not GPT**|**[2402.13871v1](http://arxiv.org/abs/2402.13871)**|
+|**18**|**2024-02-21**|**Kuaiji: the First Chinese Accounting Large Language Model**|**Not GPT**|**[2402.13866v1](http://arxiv.org/abs/2402.13866)**|
+|**19**|**2024-02-21**|**RealDex: Towards Human-like Grasping for Robotic Dexterous Hand**|**Not GPT**|**[2402.13853v1](http://arxiv.org/abs/2402.13853)**|
+|**20**|**2024-02-21**|**VL-Trojan: Multimodal Instruction Backdoor Attacks against Autoregressive Visual Language Models**|**Not GPT**|**[2402.13851v1](http://arxiv.org/abs/2402.13851)**|
+|**21**|**2024-02-21**|**Large Language Models are Advanced Anonymizers**|**Not GPT**|**[2402.13846v1](http://arxiv.org/abs/2402.13846)**|
+|**22**|**2024-02-21**|**LLM4SBR: A Lightweight and Effective Framework for Integrating Large Language Models in Session-based Recommendation**|**Not GPT**|**[2402.13840v1](http://arxiv.org/abs/2402.13840)**|
+|**23**|**2024-02-21**|**Using Large Language Models for Natural Language Processing Tasks in Requirements Engineering: A Systematic Guideline**|**Not GPT**|**[2402.13823v1](http://arxiv.org/abs/2402.13823)**|
+|**24**|**2024-02-21**|**CriticBench: Evaluating Large Language Models as Critic**|**Not GPT**|**[2402.13764v1](http://arxiv.org/abs/2402.13764)**|
+|**25**|**2024-02-21**|**Factual Consistency Evaluation of Summarisation in the Era of Large Language Models**|**Not GPT**|**[2402.13758v1](http://arxiv.org/abs/2402.13758)**|
+|**26**|**2024-02-21**|**LongRoPE: Extending LLM Context Window Beyond 2 Million Tokens**|**Not GPT**|**[2402.13753v1](http://arxiv.org/abs/2402.13753)**|
+|**27**|**2024-02-21**|**Breaking the Barrier: Utilizing Large Language Models for Industrial Recommendation Systems through an Inferential Knowledge Graph**|**Not GPT**|**[2402.13750v1](http://arxiv.org/abs/2402.13750)**|
+|**28**|**2024-02-21**|**Unlocking Instructive In-Context Learning with Tabular Prompting for Relational Triple Extraction**|**Not GPT**|**[2402.13741v1](http://arxiv.org/abs/2402.13741)**|
+|**29**|**2024-02-21**|**From Text to CQL: Bridging Natural Language and Corpus Search Engine**|**Not GPT**|**[2402.13740v1](http://arxiv.org/abs/2402.13740)**|
+|**30**|**2024-02-21**|**The Da Vinci Code of Large Pre-trained Language Models: Deciphering Degenerate Knowledge Neurons**|**Not GPT**|**[2402.13731v1](http://arxiv.org/abs/2402.13731)**|
+|**31**|**2024-02-21**|**Ouroboros: Speculative Decoding with Large Model Enhanced Drafting**|**Not GPT**|**[2402.13720v1](http://arxiv.org/abs/2402.13720)**|
+|**32**|**2024-02-21**|**$\infty$Bench: Extending Long Context Evaluation Beyond 100K Tokens**|**Not GPT**|**[2402.13718v1](http://arxiv.org/abs/2402.13718)**|
+|**33**|**2024-02-21**|**Neeko: Leveraging Dynamic LoRA for Efficient Multi-Character Role-Playing Agent**|**Not GPT**|**[2402.13717v1](http://arxiv.org/abs/2402.13717)**|
+|**34**|**2024-02-21**|**An Evaluation of Large Language Models in Bioinformatics Research**|**Not GPT**|**[2402.13714v1](http://arxiv.org/abs/2402.13714)**|
+|**35**|**2024-02-21**|**SaGE: Evaluating Moral Consistency in Large Language Models**|**Not GPT**|**[2402.13709v1](http://arxiv.org/abs/2402.13709)**|
+|**36**|**2024-02-21**|**Investigating Multilingual Instruction-Tuning: Do Polyglot Models Demand for Multilingual Instructions?**|**Not GPT**|**[2402.13703v1](http://arxiv.org/abs/2402.13703)**|
+|**37**|**2024-02-21**|**KInIT at SemEval-2024 Task 8: Fine-tuned LLMs for Multilingual Machine-Generated Text Detection**|**Not GPT**|**[2402.13671v1](http://arxiv.org/abs/2402.13671)**|
+|**38**|**2024-02-21**|**Self-Distillation Bridges Distribution Gap in Language Model Fine-Tuning**|**Not GPT**|**[2402.13669v1](http://arxiv.org/abs/2402.13669)**|
+|**39**|**2024-02-21**|**GCOF: Self-iterative Text Generation for Copywriting Using Large Language Model**|**Not GPT**|**[2402.13667v1](http://arxiv.org/abs/2402.13667)**|
+|**40**|**2024-02-21**|**Privacy-Preserving Instructions for Aligning Large Language Models**|**Not GPT**|**[2402.13659v1](http://arxiv.org/abs/2402.13659)**|
+|**41**|**2024-02-21**|**PQA: Zero-shot Protein Question Answering for Free-form Scientific Enquiry with Large Language Models**|**Not GPT**|**[2402.13653v1](http://arxiv.org/abs/2402.13653)**|
+|**42**|**2024-02-21**|**Unsupervised Text Style Transfer via LLMs and Attention Masking with Multi-way Interactions**|**Not GPT**|**[2402.13647v1](http://arxiv.org/abs/2402.13647)**|
+|**43**|**2024-02-21**|**A Unified Framework and Dataset for Assessing Gender Bias in Vision-Language Models**|**Not GPT**|**[2402.13636v1](http://arxiv.org/abs/2402.13636)**|
+|**44**|**2024-02-21**|**UniGraph: Learning a Cross-Domain Graph Foundation Model From Natural Language**|**Not GPT**|**[2402.13630v1](http://arxiv.org/abs/2402.13630)**|
+|**45**|**2024-02-21**|**MORE: Multi-mOdal REtrieval Augmented Generative Commonsense Reasoning**|**Not GPT**|**[2402.13625v1](http://arxiv.org/abs/2402.13625)**|
+|**46**|**2024-02-21**|**FLAME: Self-Supervised Low-Resource Taxonomy Expansion using Large Language Models**|**Not GPT**|**[2402.13623v1](http://arxiv.org/abs/2402.13623)**|
+|**47**|**2024-02-21**|**CODIS: Benchmarking Context-Dependent Visual Comprehension for Multimodal Large Language Models**|**Not GPT**|**[2402.13607v1](http://arxiv.org/abs/2402.13607)**|
+|**48**|**2024-02-21**|**A Comprehensive Study of Multilingual Confidence Estimation on Large Language Models**|**Not GPT**|**[2402.13606v1](http://arxiv.org/abs/2402.13606)**|
+|**49**|**2024-02-21**|**KorNAT: LLM Alignment Benchmark for Korean Social Values and Common Knowledge**|**Not GPT**|**[2402.13605v1](http://arxiv.org/abs/2402.13605)**|
+|**50**|**2024-02-21**|**Breaking the HISCO Barrier: Automatic Occupational Standardization with OccCANINE**|**Not GPT**|**[2402.13604v1](http://arxiv.org/abs/2402.13604)**|
 
 </details>
