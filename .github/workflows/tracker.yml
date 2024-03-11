@@ -12,6 +12,9 @@ env:
 
   GITHUB_USER_NAME: sjtu-jhw
   GITHUB_USER_EMAIL: jhw15763365981@gmail.com
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  BAIDU_APP_ID: ${{ secrets.BAIDU_APP_ID }}
+  BAIDU_APP_KEY: ${{ secrets.BAIDU_APP_KEY }} 
 
 jobs:
   build:
@@ -27,14 +30,14 @@ jobs:
       with:
         python-version: "3.11"
 
-    - name: Add environment variable
-      run: export OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
+    # - name: Add environment variable
+    #   run: export OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
       
-    - name: Add environment variable
-      run: export BAIDU_APP_ID=${{ secrets.BAIDU_APP_ID }}
+    # - name: Add environment variable
+    #   run: export BAIDU_APP_ID=${{ secrets.BAIDU_APP_ID }}
       
-    - name: Add environment variable
-      run: export BAIDU_APP_KEY=${{ secrets.BAIDU_APP_KEY }}      
+    # - name: Add environment variable
+    #   run: export BAIDU_APP_KEY=${{ secrets.BAIDU_APP_KEY }}      
         
       
     - name: Install dependencies
