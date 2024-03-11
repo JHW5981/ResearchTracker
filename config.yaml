@@ -7,7 +7,7 @@ max_results: 50
 md_readme_path: 'README.md'
 
 # GPT
-gpt: True
+gpt: False
 
 # keywords to search
 keywords:
