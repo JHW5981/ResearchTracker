@@ -30,8 +30,8 @@ jobs:
     - name: Add environment variable
       run: |
         export OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
-        export BAIDU_APP_ID=${{secrets.BAIDU_APP_ID}}
-        export BAIDU_APP_KEY=${{secrets.BAIDU_APP_KEY}}
+        export BAIDU_APP_ID=${{ secrets.BAIDU_APP_ID }}
+        export BAIDU_APP_KEY=${{ secrets.BAIDU_APP_KEY }}
       
     - name: Install dependencies
       run: |
