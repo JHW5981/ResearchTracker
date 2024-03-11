@@ -2,7 +2,8 @@ import arxiv
 import yaml
 import logging
 import argparse
-from chat import Chat
+from utils.chat import Chat
+from utils.translate import translate
 
 logging.basicConfig(format='[%(asctime)s %(levelname)s] %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S',
@@ -51,7 +52,7 @@ def analyzer(abs:str) -> str:
     return response.replace('\n', '<br>')
 
 
-def get_daily_papers(topic,query="ocr", max_results=20, gpt=False):
+def get_daily_papers(topic,query="ocr", max_results=20, gpt=False, trans=True):
     """
     from `Vincentqyw/cv-arxiv-daily`, used for get daily papers
     @param topic: str
@@ -82,9 +83,16 @@ def get_daily_papers(topic,query="ocr", max_results=20, gpt=False):
         logging.info(f"Time = {update_time} title = {paper_title}")
 
         if gpt:
-            response = analyzer(paper_abstract)
+            try:
+                response = analyzer(paper_abstract)
+            except KeyError:
+                response = "ChatGPT cannot be used!"
         else:
-            response = "Not GPT"
+            response = "No GPT"
+        
+        # we are not using gpt so now we use translation
+        if not gpt and trans:
+            response = translate(query=paper_abstract)
 
         # eg: 2108.09112v1 -> 2108.09112
         ver_pos = paper_id.find('v')
