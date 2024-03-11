@@ -28,13 +28,14 @@ jobs:
         python-version: "3.11"
 
     - name: Add environment variable
-      run: |
-        export OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
-        export BAIDU_APP_ID=${{ secrets.BAIDU_APP_ID }}
-        export BAIDU_APP_KEY=${{ secrets.BAIDU_APP_KEY }}
-        echo $OPENAI_API_KEY
-        echo $BAIDU_APP_ID
-        echo $BAIDU_APP_KEY
+      run: export OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
+      
+    - name: Add environment variable
+      run: export BAIDU_APP_ID=${{ secrets.BAIDU_APP_ID }}
+      
+    - name: Add environment variable
+      run: export BAIDU_APP_KEY=${{ secrets.BAIDU_APP_KEY }}      
+        
       
     - name: Install dependencies
       run: |
