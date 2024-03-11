@@ -14,8 +14,7 @@ from hashlib import md5
 # retrieve the appid/appkey from the environment variables
 appid = os.environ.get('BAIDU_APP_ID')
 appkey = os.environ.get('BAIDU_APP_KEY')
-# appid = '20240311001989817'
-# appkey = 'jzni3ki1fZtfnStLnCod'
+
 
 # Generate salt and sign
 def make_md5(s, encoding='utf-8'):
