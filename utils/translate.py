@@ -45,6 +45,7 @@ def _extarct_from_results(results: dict, ):
         trans_result = results['trans_result']
     except KeyError as e:
         print("No translated results is contained!")
+        print(trans_result)
         return ""
     for item in trans_result:
         res += item['dst']
