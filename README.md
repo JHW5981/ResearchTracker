@@ -25,3 +25,9 @@
 
 ## Demo
 
+Demo视频在 `assets/demo.mp4`，有问题的可以去瞅瞅。
+
+# Future Work
+
+- 增加入库功能
+- 优化查询时间
