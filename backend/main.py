@@ -8,6 +8,8 @@ from typing import List, Optional, Dict
 import logging
 from .scraper.crawler import PaperCrawler
 from .services.llm_service import LLMService
+import requests
+from urllib.parse import quote
 
 # 配置日志
 logging.basicConfig(level=logging.INFO)
@@ -132,6 +134,23 @@ async def debug_filter(papers: List[Dict], criteria: str):
     try:
         filtered_papers = await llm_service.filter_papers(papers, criteria)
         return {"total": len(filtered_papers), "papers": filtered_papers}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/search_paper")
+async def search_paper(request: dict):
+    try:
+        title = request.get("title")
+        if not title:
+            raise HTTPException(status_code=400, detail="论文标题不能为空")
+        
+        # 使用Google Scholar搜索论文
+        encoded_title = quote(title)
+        search_url = f"https://scholar.google.com/scholar?q={encoded_title}"
+        
+        # 返回搜索URL
+        return {"url": search_url}
+        
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

@@ -1,11 +1,10 @@
-
 <template>
   <div class="home">
     <!-- 添加一个带边框的容器 -->
     <div class="content-container">
       <el-container>
         <el-header>
-          <h1>顶会论文搜索与分析</h1>
+          <h1>ResearchTracker——顶会论文搜索与分析</h1>
         </el-header>
         
           <el-main>
@@ -78,7 +77,7 @@
               </div>
 
               <div class="actions">
-                <el-button type="primary" @click="openPaper(paper.url)">
+                <el-button type="primary" @click="searchPaper(paper.title)" :loading="paper.searching">
                   查看原文
                 </el-button>
               </div>
@@ -97,7 +96,7 @@ import axios from 'axios'
 import { ElMessage } from 'element-plus'
 
 // 修改为后端服务地址，如果要使用ngrok，则修改为ngrok的地址
-const API_BASE_URL = 'https://575f-2403-d400-1201-ff8-00-7d8.ngrok-free.app'  // 本地开发时使用 8000 端口
+const API_BASE_URL = 'http://localhost:8000'//'https://8552-2403-d400-1201-ff8-00-7d8'  // 本地开发时使用 8000 端口
 
 const form = ref({
   url: '',
@@ -147,8 +146,24 @@ const handleSubmit = async () => {
   }
 }
 
-const openPaper = (url) => {
-  window.open(url, '_blank')
+const searchPaper = async (title) => {
+  const paper = papers.value.find(p => p.title === title)
+  if (!paper) return
+  
+  paper.searching = true
+  try {
+    const response = await axios.post(`${API_BASE_URL}/api/search_paper`, { title })
+    if (response.data.url) {
+      window.open(response.data.url, '_blank')
+    } else {
+      ElMessage.warning('未找到论文链接')
+    }
+  } catch (error) {
+    console.error('Error:', error)
+    ElMessage.error('搜索论文失败')
+  } finally {
+    paper.searching = false
+  }
 }
 </script>
 
@@ -190,10 +205,25 @@ const openPaper = (url) => {
 .el-header {
   text-align: center;  /* 文字居中 */
   padding: 20px 0;     /* 上下添加一些间距 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
   color: #409EFF;
   margin: 0;          /* 移除默认边距 */
+  font-size: 1.8em;   /* 减小字体大小 */
+  font-weight: 500;   /* 稍微减轻字重 */
+  letter-spacing: 0.5px;/* 减小字间距 */
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1); /* 保持轻微阴影 */
+}
+
+/* 添加一个小图标在标题旁边 */
+h1::before {
+  content: '📚';
+  font-size: 1.2em;
+  margin-right: 8px;  /* 减小间距 */
+  vertical-align: middle;
 }
 </style>
