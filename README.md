@@ -6,12 +6,41 @@
 - 开箱即用
 
 ## Usage
-- ``git clone https://github.com/JHW5981/ResearchTracker.git``
-- 在项目跟目录下创建.env文件，里面存放OPENAI_API_KEY=sk-ZqN9I********8f。
-- 开两个终端，一个终端 `cd` 到 `ResearchTracker` 路径下，一个终端 `cd` 到 `ResearchTracker/frontend`下。
-- 前者运行 `uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000` 运行后端代码。
-- 后者运行 `npm run dev` 运行前端代码，这个时候前端会有一个localhost的链接，打开就可以用了。
-- 如果想将本地服务映射到公网的话，先运行 `ngrok http 8000`，再将 `frontend/src/views/Home.vue` 第100行的代码改成ngrok的地址，再到 `frontend` 路径下运行 `npm run build`，生成 `dist` 文件，再运行 `npm run dev`。
+1. 克隆项目
+```bash
+git clone https://github.com/JHW5981/ResearchTracker.git
+```
+
+2. 配置环境变量
+- 复制 `.env.example` 文件并重命名为 `.env`
+- 在 `.env` 文件中填入你的 OpenAI API Key
+```bash
+cp .env.example .env
+# 编辑 .env 文件，填入你的 API Key
+```
+
+3. 运行项目
+- 开两个终端：
+  - 终端1（后端）：
+    ```bash
+    cd ResearchTracker
+    uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
+    ```
+  - 终端2（前端）：
+    ```bash
+    cd ResearchTracker/frontend
+    npm run dev
+    ```
+- 打开浏览器访问前端提供的 localhost 链接即可使用
+
+4. （可选）公网映射
+- 运行 `ngrok http 8000`
+- 将 `frontend/src/views/Home.vue` 第100行的代码改成 ngrok 地址
+- 到 `frontend` 路径下运行：
+  ```bash
+  npm run build
+  npm run dev
+  ```
 
 ## Q&A
 
@@ -22,6 +51,12 @@
 2. 修改前端代码之后，本地前端服务界面变化了，ngrok映射的地址么变？
 
     ngrok依赖的是前端编译后的静态文件，每次修改前端后，需要重新运行`npm run build`。
+
+## 安全说明
+
+- `.env` 文件包含敏感信息（API密钥），已被添加到 `.gitignore`
+- 请勿将 `.env` 文件提交到版本控制系统
+- 请参考 `.env.example` 文件进行本地环境配置
 
 ## Demo
 
